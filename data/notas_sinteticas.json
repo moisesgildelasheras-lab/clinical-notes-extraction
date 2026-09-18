@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "texto": "Varón de 68 años, acude a revisión cardiológica por disnea de esfuerzo progresiva. Antecedente de HTA e IAM anterior hace 3 años. Ecocardiograma actual: FEVI 38%, hipoquinesia anteroseptal. En tratamiento con bisoprolol 5mg, ramipril 5mg y furosemida 40mg. Alérgico a penicilina.",
+    "ground_truth": {
+      "edad": 68,
+      "sexo": "M",
+      "diagnostico_principal": "Insuficiencia cardiaca / IAM anterior previo",
+      "fevi_porcentaje": 38,
+      "medicacion": ["bisoprolol", "ramipril", "furosemida"],
+      "alergias": ["penicilina"]
+    }
+  },
+  {
+    "id": 2,
+    "texto": "Paciente mujer, 54 años. Sin alergias medicamentosas conocidas. Consulta por palpitaciones. ECG en ritmo sinusal, sin hallazgos agudos. No antecedentes cardiológicos relevantes. FEVI conservada (60%) en ecocardiograma de hace 6 meses. No toma medicación habitual.",
+    "ground_truth": {
+      "edad": 54,
+      "sexo": "F",
+      "diagnostico_principal": "Palpitaciones, sin hallazgos agudos",
+      "fevi_porcentaje": 60,
+      "medicacion": [],
+      "alergias": []
+    }
+  },
+  {
+    "id": 3,
+    "texto": "Hombre de 45 años con miocardiopatía dilatada de origen no isquémico. FEVI severamente deprimida, 25% en última exploración. Tratamiento con sacubitrilo/valsartano, eplerenona y dapagliflozina. No se recogen alergias en la historia.",
+    "ground_truth": {
+      "edad": 45,
+      "sexo": "M",
+      "diagnostico_principal": "Miocardiopatía dilatada no isquémica",
+      "fevi_porcentaje": 25,
+      "medicacion": ["sacubitrilo/valsartano", "eplerenona", "dapagliflozina"],
+      "alergias": null
+    }
+  },
+  {
+    "id": 4,
+    "texto": "Mujer de 72 años, diabética, remitida por episodio de dolor torácico atípico. Coronariografía sin lesiones significativas. Función ventricular normal. Continúa con metformina y atorvastatina. Refiere alergia a contrastes yodados.",
+    "ground_truth": {
+      "edad": 72,
+      "sexo": "F",
+      "diagnostico_principal": "Dolor torácico atípico, coronarias sin lesiones",
+      "fevi_porcentaje": null,
+      "medicacion": ["metformina", "atorvastatina"],
+      "alergias": ["contrastes yodados"]
+    }
+  },
+  {
+    "id": 5,
+    "texto": "Varón de 81 años con fibrilación auricular permanente. No se objetiva mejoría de la FEVI (35%) respecto al estudio previo pese a optimización de tratamiento. Toma apixabán, carvedilol y espironolactona. Sin alergias reseñadas.",
+    "ground_truth": {
+      "edad": 81,
+      "sexo": "M",
+      "diagnostico_principal": "Fibrilación auricular permanente, insuficiencia cardiaca",
+      "fevi_porcentaje": 35,
+      "medicacion": ["apixabán", "carvedilol", "espironolactona"],
+      "alergias": null
+    }
+  },
+  {
+    "id": 6,
+    "texto": "Paciente de 39 años derivada por soplo sistólico detectado en revisión rutinaria. Ecocardiograma: insuficiencia mitral leve, FEVI normal. No requiere tratamiento farmacológico por el momento. No alergias conocidas.",
+    "ground_truth": {
+      "edad": 39,
+      "sexo": null,
+      "diagnostico_principal": "Insuficiencia mitral leve",
+      "fevi_porcentaje": null,
+      "medicacion": [],
+      "alergias": []
+    }
+  },
+  {
+    "id": 7,
+    "texto": "Varón, 58 años, seguimiento tras implante de stent en DA hace 2 meses. Doble antiagregación con AAS y ticagrelor, además de bisoprolol y atorvastatina de alta intensidad. FEVI conservada. Alérgico a AINEs.",
+    "ground_truth": {
+      "edad": 58,
+      "sexo": "M",
+      "diagnostico_principal": "Post-stent en descendente anterior",
+      "fevi_porcentaje": null,
+      "medicacion": ["AAS", "ticagrelor", "bisoprolol", "atorvastatina"],
+      "alergias": ["AINEs"]
+    }
+  },
+  {
+    "id": 8,
+    "texto": "Mujer de 66 años con antecedente de valvulopatía aórtica reumática, ya intervenida (recambio valvular biológico hace 4 años). FEVI 55%. Anticoagulada con acenocumarol los primeros 3 meses, actualmente sin anticoagulación. No alergias.",
+    "ground_truth": {
+      "edad": 66,
+      "sexo": "F",
+      "diagnostico_principal": "Valvulopatía aórtica reumática, recambio valvular",
+      "fevi_porcentaje": 55,
+      "medicacion": [],
+      "alergias": []
+    }
+  }
+]

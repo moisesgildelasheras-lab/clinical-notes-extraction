@@ -1,0 +1,127 @@
+[
+  {
+    "id": 1,
+    "prediccion": {
+      "edad": 68,
+      "sexo": "M",
+      "diagnostico_principal": "disnea de esfuerzo progresiva",
+      "fevi_porcentaje": 38.0,
+      "medicacion": [
+        "bisoprolol",
+        "ramipril",
+        "furosemida"
+      ],
+      "alergias": [
+        "penicilina"
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": 2,
+    "prediccion": {
+      "edad": 54,
+      "sexo": "F",
+      "diagnostico_principal": "palpitaciones",
+      "fevi_porcentaje": 60.0,
+      "medicacion": [],
+      "alergias": null
+    },
+    "error": null
+  },
+  {
+    "id": 3,
+    "prediccion": {
+      "edad": 45,
+      "sexo": "M",
+      "diagnostico_principal": "miocardiopatía dilatada de origen no isquémico",
+      "fevi_porcentaje": 25.0,
+      "medicacion": [
+        "sacubitrilo",
+        "valsartano",
+        "eplerenona",
+        "dapagliflozina"
+      ],
+      "alergias": null
+    },
+    "error": null
+  },
+  {
+    "id": 4,
+    "prediccion": {
+      "edad": 72,
+      "sexo": "F",
+      "diagnostico_principal": "dolor torácico atípico",
+      "fevi_porcentaje": null,
+      "medicacion": [
+        "metformina",
+        "atorvastatina"
+      ],
+      "alergias": [
+        "contrastes yodados"
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": 5,
+    "prediccion": {
+      "edad": 81,
+      "sexo": "M",
+      "diagnostico_principal": "fibrilación auricular permanente",
+      "fevi_porcentaje": 35.0,
+      "medicacion": [
+        "apixabán",
+        "carvedilol",
+        "espironolactona"
+      ],
+      "alergias": null
+    },
+    "error": null
+  },
+  {
+    "id": 6,
+    "prediccion": {
+      "edad": 39,
+      "sexo": "M",
+      "diagnostico_principal": "soplo sistólico",
+      "fevi_porcentaje": null,
+      "medicacion": [],
+      "alergias": null
+    },
+    "error": null
+  },
+  {
+    "id": 7,
+    "prediccion": {
+      "edad": 58,
+      "sexo": "M",
+      "diagnostico_principal": "seguimiento tras implante de stent en DA",
+      "fevi_porcentaje": null,
+      "medicacion": [
+        "AAS",
+        "ticagrelor",
+        "bisoprolol",
+        "atorvastatina de alta intensidad"
+      ],
+      "alergias": [
+        "AINEs"
+      ]
+    },
+    "error": null
+  },
+  {
+    "id": 8,
+    "prediccion": {
+      "edad": 66,
+      "sexo": "F",
+      "diagnostico_principal": "valvulopatía aórtica reumática",
+      "fevi_porcentaje": 55.0,
+      "medicacion": [
+        "acenocumarol"
+      ],
+      "alergias": null
+    },
+    "error": null
+  }
+]
