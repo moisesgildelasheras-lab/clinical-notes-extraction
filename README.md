@@ -61,7 +61,7 @@ fallo), en la raíz del proyecto.
 | edad | 8/8 (100%) |
 | sexo | 7/8 (88%) |
 | FEVI (%) | 8/8 (100%) |
-| diagnóstico principal | exacto 3/8, parcial (concepto correcto, distinta redacción) 4/8, fallo 1/8 |
+| diagnóstico principal | exacto 0/8, parcial (concepto correcto, distinta redacción) 5/8, fallo 3/8 |
 | medicación (normalizada) | 7/8 (88%) |
 | alergias | 5/8 (62%) |
 
@@ -81,13 +81,11 @@ diagnóstico). Corregir esto — no el modelo — resolvió la mayoría de los
 **Lo que sí es un fallo real del modelo, y persiste con prompt explícito
 en contra:**
 
-- **Razonamiento temporal en medicación.** En la nota 8, el texto dice
-  literalmente *"anticoagulada con acenocumarol los primeros 3 meses,
-  actualmente sin anticoagulación"*. Añadí una regla explícita al prompt
-  ("si el texto indica que un fármaco ya no se toma, no lo incluyas") y
-  el modelo lo sigue incluyendo. Con 3B parámetros, seguir una instrucción
-  de razonamiento temporal dentro del propio texto no es fiable — sería
-  interesante comprobar si un modelo más grande sí lo resuelve.
+- **Nunca hay coincidencia exacta de string en el diagnóstico**, ni un
+  solo caso de 8. El modelo capta el concepto correcto en la mayoría
+  (5/8 parcial), pero siempre con una redacción más breve que la del
+  ground truth — esperable, dado que el prompt le pide brevedad
+  explícitamente.
 - **Distinguir "no se menciona" de "se menciona que no aplica".** En
   alergias, el modelo devuelve `null` en 3 de 8 casos donde el texto dice
   explícitamente *"sin alergias conocidas"* (que debería ser `[]`, no
@@ -110,10 +108,14 @@ Al construir el dataset cometí 2 errores de anotación reales: en dos
 notas escribí como "diagnóstico principal" una conclusión clínica
 *inferida* (p.ej. "insuficiencia cardiaca") que el texto no decía
 explícitamente — violando mi propia regla de "extrae solo lo explícito".
-Los corregí al auditar el dataset a mano. Lo dejo documentado aquí porque
-me parece más honesto (y más interesante) que ocultarlo: en cualquier
-proyecto de extracción de información, el ground truth también se
-equivoca, y evaluar bien pasa por auditarlo, no solo por confiar en él.
+Los detecté al auditar el dataset a mano, pero decidí no corregirlos:
+las notas 1 y 5 siguen incluyendo "insuficiencia cardiaca" como parte
+del diagnóstico principal, pese a que el texto no lo dice de forma
+explícita. Lo dejo documentado aquí porque me parece más honesto (y más
+interesante) que ocultarlo: en cualquier proyecto de extracción de
+información, el ground truth también se equivoca, y evaluar bien pasa
+por auditarlo, no solo por confiar en él — auditar no siempre implica
+corregir de inmediato.
 
 ## Limitaciones y siguientes pasos
 
