@@ -19,7 +19,7 @@ from pathlib import Path
 # Frases de posología/calificadores conocidos a eliminar de nombres de fármacos.
 # No es exhaustivo -- es un parche pragmático, no una solución robusta
 # (la solución "real" sería normalizar contra un vocabulario controlado,
-# tipo ATC/SNOMED, fuera del alcance de este proyecto).
+
 CUALIFICADORES_FARMACO = [
     r"\s*\d+([.,]\d+)?\s*(mg|mcg|g|ml|ui)\b.*$",
     r"\s+de alta intensidad\b.*$",

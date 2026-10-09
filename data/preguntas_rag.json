@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Para qué sirve la furosemida?",
+    "guia_esperada": "diureticos_espironolactona_eplerenona",
+    "palabras_clave": [
+      "diurético",
+      "líquido"
+    ]
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Qué significa tener la FEVI baja?",
+    "guia_esperada": "fevi_fraccion_eyeccion",
+    "palabras_clave": [
+      "fracción de eyección"
+    ]
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Puedo dejar de tomar el anticoagulante si me encuentro bien?",
+    "guia_esperada": "fibrilacion_auricular_anticoagulacion",
+    "palabras_clave": [
+      "médico"
+    ]
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cuánto tiempo hay que tomar la doble antiagregación después de poner un stent?",
+    "guia_esperada": "stent_doble_antiagregacion",
+    "palabras_clave": [
+      "cardiólogo"
+    ]
+  },
+  {
+    "id": 5,
+    "pregunta": "Me han recetado bisoprolol, ¿qué efectos secundarios puede dar?",
+    "guia_esperada": "betabloqueantes_bisoprolol_carvedilol",
+    "palabras_clave": [
+      "pulso"
+    ]
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Puedo tomar ramipril y sacubitrilo/valsartán a la vez?",
+    "guia_esperada": "ieca_ara2_sacubitrilo_valsartan",
+    "palabras_clave": [
+      "periodo de espera"
+    ]
+  },
+  {
+    "id": 7,
+    "pregunta": "Tengo insuficiencia cardiaca, ¿qué debo vigilar cada día en casa?",
+    "guia_esperada": "insuficiencia_cardiaca_seguimiento",
+    "palabras_clave": [
+      "peso"
+    ]
+  },
+  {
+    "id": 8,
+    "pregunta": "Me duele el pecho, ¿cuándo debo ir a urgencias?",
+    "guia_esperada": "dolor_toracico_cuando_consultar",
+    "palabras_clave": [
+      "112"
+    ]
+  },
+  {
+    "id": 9,
+    "pregunta": "Tengo una prótesis valvular biológica, ¿necesito anticoagulación para siempre?",
+    "guia_esperada": "valvulopatia_protesis_biologica",
+    "palabras_clave": [
+      "meses"
+    ]
+  },
+  {
+    "id": 10,
+    "pregunta": "Soy alérgico al contraste yodado y tomo metformina, ¿qué debo tener en cuenta antes de una prueba con contraste?",
+    "guia_esperada": "contrastes_yodados_metformina",
+    "palabras_clave": [
+      "metformina"
+    ]
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué dieta debo seguir para bajar el colesterol?",
+    "guia_esperada": null,
+    "palabras_clave": []
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Puedo hacer ejercicio intenso si llevo un marcapasos?",
+    "guia_esperada": null,
+    "palabras_clave": []
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Qué vacunas necesito antes de viajar a Asia?",
+    "guia_esperada": null,
+    "palabras_clave": []
+  }
+]
